@@ -62,7 +62,8 @@ let film = {
 4. Add a property "boxoffice" with a value of 269061 to the "film" object. Return "film".
 */
 function addBoxOffice(){
-    // Your answer here:
+  film.boxoffice = 269061;
+  return film;
 }
 
 /*
