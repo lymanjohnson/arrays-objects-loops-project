@@ -36,6 +36,10 @@ function smallNums(){
 */
 function addNums(){
     // Your answer here:
+    numbers.push(12);
+    numbers.push(99);
+    numbers.push(101);
+    return numbers;
 }
 
 
