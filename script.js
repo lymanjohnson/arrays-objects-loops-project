@@ -78,7 +78,7 @@ function addActor(){
 6. Now that you've added a "boxoffice" property, subtract "budget" from "property" and return the difference. This number is the amount lost by the studio in making the film. Return the loss.
 */
 function getLosses(){
-    // Your answer here:
+  return film.boxoffice - film.budget;
 }
 
 
