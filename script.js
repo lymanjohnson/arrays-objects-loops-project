@@ -103,11 +103,6 @@ function interleave(){
     return vals;
 }
 
-
-
-
-
-
 /*
 8. Iterate over the "first" and "second" arrays. Compare the values for both arrays. If the arrays values are the same, then store that value in the "same" array. Return "same".
 */
@@ -117,5 +112,10 @@ let second = [ "think", "stand", "cheese", "break", "numinous", "mouse", "close"
 
 function union(){
     let same = [];
-    // Your answer here:
+    for(i=0;i<first.length;i++){
+      if(first[i]==second[i]){
+        same.push(first[i]);
+      }
+    }
+    return same;
 }
