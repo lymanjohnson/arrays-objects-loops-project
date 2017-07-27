@@ -70,7 +70,8 @@ function addBoxOffice(){
 5. Add the name "Yukiko Shimazaki" to the "actors" array. Return "film";
 */
 function addActor(){
-    // Your answer here:
+  film.actors.push("Yukiko Shimazaki");
+  return film;
 }
 
 /*
